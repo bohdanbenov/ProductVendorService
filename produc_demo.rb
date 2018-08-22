@@ -1,4 +1,4 @@
-require_relative("product.rb")
+require_relative 'product.rb'
 
 puts "Create few objects of product class"
 
