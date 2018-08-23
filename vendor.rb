@@ -1,7 +1,7 @@
 require_relative 'product.rb'
 
 class Vendor
-  attr_reader :name_of_vendor
+  attr_reader :name
 
   def initialize(name, products)
     @name = name
