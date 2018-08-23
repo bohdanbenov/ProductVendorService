@@ -23,7 +23,7 @@ puts "Product 5 --- name: #{product5.name_of_product}, price: #{product5.price_o
 puts "Product 6 --- name: #{product6.name_of_product}, price: #{product6.price_of_product}"
 
 vendor1 = Vendor.new("GoodFood", {milk: product1, apple: product2, pineapple: product3})
-vendor2 = Vendor.new("GoodFood", {ball: product4, skies: product5, skates: product6})
+vendor2 = Vendor.new("SportLife", {ball: product4, skies: product5, skates: product6})
 
 vendor1.print_list_of_products
 vendor2.print_list_of_products
