@@ -17,3 +17,7 @@ vendor2 = Vendor.new("SportLife", vendorTwoProducts)
 
 vendor1.print_list_of_products
 vendor2.print_list_of_products
+
+print 'Please, enter budget: '
+budget = gets.chomp.to_f
+vendor2.selection_with_budget(budget)
