@@ -1,13 +1,13 @@
 require_relative 'product.rb'
 require_relative 'vendor.rb'
 
-product1 = Product.new("milk", "15.65")
-product2 = Product.new("apple", "7.44")
-product3 = Product.new("pineapple", "14.55")
+product1 = Product.new("milk", '15.65')
+product2 = Product.new("apple", '7.44')
+product3 = Product.new("pineapple", '14.55')
 
-product4 = Product.new("ball", "26")
-product5 = Product.new("skies", "260")
-product6 = Product.new("skates", "85")
+product4 = Product.new("ball", '26')
+product5 = Product.new("skies", '260')
+product6 = Product.new("skates", '85')
 
 vendorOneProducts = [product1, product2, product3]
 vendorTwoProducts = [product4, product5, product6]
