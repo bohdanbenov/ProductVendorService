@@ -9,8 +9,8 @@ class Vendor
   end
 
   def print_list_of_products
+    puts "\nName of vendor: #{@name_of_vendor}"
     puts 'List of vendor\'s product'
-    puts "Name of vendor: #{@name_of_vendor}"
-    @products_of_vendor.each {|key, value| puts "\tCategory of product: #{key}, price: #{value.price_of_product}"}
+    @products_of_vendor.each {|product| puts "\tName: #{product.name_of_product}, price: #{product.price_of_product}"}
   end
 end
