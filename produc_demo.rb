@@ -1,8 +1,19 @@
 require_relative 'product.rb'
 require_relative 'vendor.rb'
 
-vendor1 = Vendor.new("GoodFood", [Product.new("milk", "15.65"), Product.new("apple", "7.44"), Product.new("pineapple", "14.55")])
-vendor2 = Vendor.new("SportLife", [Product.new("ball", "26"), Product.new("skies", "260"), Product.new("skates", "85")])
+product1 = Product.new("milk", "15.65")
+product2 = Product.new("apple", "7.44")
+product3 = Product.new("pineapple", "14.55")
+
+product4 = Product.new("ball", "26")
+product5 = Product.new("skies", "260")
+product6 = Product.new("skates", "85")
+
+vendorOneProducts = [product1, product2, product3]
+vendorTwoProducts = [product4, product5, product6]
+
+vendor1 = Vendor.new("GoodFood", vendorOneProducts)
+vendor2 = Vendor.new("SportLife", vendorTwoProducts)
 
 vendor1.print_list_of_products
 vendor2.print_list_of_products
