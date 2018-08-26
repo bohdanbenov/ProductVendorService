@@ -22,4 +22,10 @@ class Vendor
       pair_products.each {|product| puts "\tName: #{product.name}, price: #{product.price}"}
     end
   end
+
+  def print_sorted_list
+    sort = @products.sort{|product1, product2| product1.price.to_f <=> product2.price.to_f}
+    puts "\nName of vendor: #{@name}"
+    sort.each {|product| puts "\tName: #{product.name}, price: #{product.price}"}
+  end
 end
