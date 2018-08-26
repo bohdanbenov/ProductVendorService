@@ -21,3 +21,7 @@ vendor2.print_list_of_products
 print 'Please, enter budget: '
 budget = gets.chomp.to_f
 vendor2.selection_with_budget(budget)
+
+puts 'Sorted list'
+vendor1.print_sorted_list
+vendor2.print_sorted_list
